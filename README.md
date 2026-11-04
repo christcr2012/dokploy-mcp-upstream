@@ -561,3 +561,7 @@ If you encounter any issues, have questions, or want to suggest a feature, pleas
 ## License
 
 This project is licensed under the [Apache License](LICENSE).
+
+## Release authority
+
+Release authority: this project gets ONE automatic release per day (the nightly promotion, where a release train exists). Every additional release requires the owner's authority — granted in advance with conditions, in the moment, or by any other scheme the owner specifies. Release machinery must encode the owner's permission scheme; no machinery may impose its own numeric cap on owner-ordered releases. Checks (exact-head green, ancestry, receipts) govern HOW an authorized release runs, never WHETHER the owner may order one.
